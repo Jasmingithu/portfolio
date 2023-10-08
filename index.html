@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmin portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(15, 15, 104);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 5px
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.4s;
+        }
+
+        nav ul li a:hover {
+            color: lavender font-size:1.04rem;
+        }
+
+        .left {
+            font-size: 2.5rem;
+        }
+
+        .firstSection {
+            display: FLEX;
+            justify-content: space-around;
+            align-items: centre;
+            margin: 80px 0;
+        }
+
+        .firstSection div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+            margin: 30px 0;
+
+
+
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+            margin: 30px 0;
+
+
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+
+        }
+
+       
+
+        .leftSection {
+
+            font-size: 2rem;
+            margin: 30px 0;
+
+
+
+        }
+         .firstSection div {
+            width: 30%;
+
+        }
+        .services {
+            display: FLEX;
+            justify-content: space-around;
+            align-items: centre;
+            margin: 80px 0;
+        }
+        .Servicesleft {
+            display: FLEX;
+            justify-content: space-around;
+            align-items: centre;
+            margin: 80px 0;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+
+        }
+
+        .purplee {
+            color: rgb(170, 107, 228);
+
+        }
+
+        .htutor {
+
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+
+        .himage img {
+            width: 50%;
+
+
+        }
+
+        footer {
+            text-align: center;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> PORTFOLIO OF JASMIN</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="#about">About</li></a>
+                    <li><a href="#services">Services</li></a>
+                    <li><a href="#innovations">Innovations</li></a>
+                    <li><a href="#contactme">Contact me</li></a>
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,my name is <span class="purple">Jasmin</span>
+                <div>I am a passionate </div>
+                <div>web developer</div>
+                <span id="element"></span>
+                <br><br>
+                <div class="buttons">
+                    <button class="btn">DownloadResume</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png">
+            </div>
+
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio website. I am a passionate web developer and designer with a strong background in
+                creating interactive and visually appealing websites.</p>
+        </section>
+        <br>
+        <br>
+        <section id="services">
+            <div class="servicesleft">
+                <h2>Services</h2>
+                <p>
+                    Hello I am home tutor and started my carrer in this field from 2021.
+                    Normally I cover the area<span class="purplee"> Bhubaneswar</span></p>
+            </div>
+            <div id="himage">
+                <img src="himage.png">
+            </div>
+        </section>
+        <section id="innovations">
+            <h2>Innovations</h2>
+            <p> By doing small small Projects which helps me gain more and mora knowledge as well as gives me satisfications</p>
+        </section>
+        <br><br>
+        <section id="contactme">
+            <h2>Contact Me</h2
+            <p>Feel free to reach out to me. You can email me at
+                 
+                    <a href="mailto:mohapatrajasmin777@gmail.com">mohapatrajasmin777@gmail.com</a> or connect with
+                me on LinkedIn, Twitter, or GitHub.</p>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'videoeditor', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <footer>
+        <p>&copy; 2023 Jasmin Mohapatra</p>
+    </footer>
+
+</body>
+
+</html>
